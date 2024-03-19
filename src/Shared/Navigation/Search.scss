@@ -1,0 +1,93 @@
+.search-container {
+    position: relative;
+    transition: width 0.3s ease-in-out;
+    width: 40px;
+  }
+
+  
+  .search-container.open {
+    width: 240px; /* Adjust width as needed */
+  }
+  
+  .search-icon {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    transition: left 0.3s ease-in-out;
+  }
+  
+  .search-icon i {
+    font-size: 16px;
+    color: #333;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .search-input-container {
+    position: absolute;
+    top: 50%;
+    left: -16px;
+    transform: translateY(-50%);
+    width: 0;
+    overflow: hidden;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .search-container.open .search-icon {
+    left: -10px;
+    z-index: 1;
+  }
+  
+  
+  .search-container.open .search-icon i {
+    transform: translateX(-10px);
+  }
+  
+  .search-container.open .search-input-container {
+    width: 240px; /* Adjust width as needed */
+  }
+  .search-input-container{
+    input{
+        border: none !important;
+        padding: 5px 5px 5px 30px;
+        
+    }
+  }
+
+  .SearchOverlay{
+    height: 0px;
+   .homePageLayout {
+    display: none;
+   }
+  }
+  .SearchOverlay.active{
+    height: 100%;
+    transition: height 2s ease-out;
+
+  }
+  .SearchOverlay.active .homePageLayout  {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    left: 0px;
+    top: 80px;
+    display: block;
+    transition: display 2s ease-out;
+
+  }
+  .Main-Nav:has(.SearchOverlay.active){
+    position: relative;
+  }
+  .Main-Nav:has(.SearchOverlay.active)+main{
+    display: none;
+  }

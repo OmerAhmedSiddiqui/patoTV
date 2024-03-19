@@ -1,0 +1,163 @@
+.thumbnail-wraper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.fav-heading{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+  .thumbnails-container {
+    display: flex;
+    overflow-x: hidden;
+    white-space: nowrap;
+    max-width: 100%;
+    
+  }
+
+  .thumbnails-container1{
+    display: flex;
+    overflow-x: hidden;
+    white-space: nowrap;
+    max-width: 100%;
+  }
+  .thumbnails-container2{
+    display: flex;
+    overflow-x: hidden;
+    white-space: nowrap;
+    max-width: 100%;
+  }
+  .thumbnail {
+    flex: 0 0 auto;
+    margin-right: 10px;
+   
+    cursor: pointer;
+  }
+
+  // .modal-overlay {
+  //   position: fixed;
+  //   top: 0;
+  //   left: 0;
+  //   width: 100%;
+  //   height: 100%;
+  //   background-color: rgba(0, 0, 0, 0.5);
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   z-index: 9999;
+  //   overflow: scroll;
+  // }
+  
+  // .modal-content {
+  //   background-color: #131313;
+  //   padding: 20px;
+  //   border-radius: 8px;
+  //   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  //   max-width: 80%;
+  //   // max-height: 80%;
+  //   overflow: auto;
+  //   width: 60%;
+  //   overflow: hidden;
+  //   height: 1200px;
+  //   margin-top: 454px;
+  //   margin-bottom: 126px;
+  //   max-height: 1000px;
+  // }
+
+
+.heroBannerWrap{
+  position: relative;
+}
+
+.heroBannerlayout{
+  margin-top: -120px;
+  background: transparent;
+}
+
+
+.blur-overlay {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 33.01%, #131313 100%);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.liveFlag{
+  background: #DE011D;
+  border-radius: 24px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px 8px 16px;
+  width: 105px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Thumbnail styles */
+
+
+/* Show scrollbar when container is hovered */
+.thumbnails-container.show-scroll {
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(49, 49, 49, 0.3) transparent;
+}
+.thumbnails-container1.show-scroll {
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(49, 49, 49, 0.3) transparent;
+}
+
+.thumbnails-container2.show-scroll {
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(49, 49, 49, 0.3) transparent;
+}
+
+/* Custom scrollbar styles for WebKit browsers (Chrome, Safari, etc.) */
+.thumbnails-container::-webkit-scrollbar {
+  width: 20px;
+}
+
+
+/* Custom scrollbar styles for Firefox */
+.thumbnails-container {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.3) transparent;
+}
+
+.thumbnails-container::-moz-scrollbar {
+  width: 10px;
+}
+
+.thumbnails-container::-moz-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.thumbnails-container::-moz-scrollbar-track {
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+
+  
+  

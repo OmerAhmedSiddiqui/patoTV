@@ -1,0 +1,47 @@
+.heroTextWrap{
+
+    h2{
+        font-size: 48px !important;
+        font-weight: bold !important;
+    }
+    p{
+        font-size: 22px !important;
+    
+        color: #fff;
+    }
+
+    .herotext{
+        position: absolute;
+        bottom: 114px;
+        padding: 0px 68px;
+    }
+
+}
+
+
+
+
+
+
+.heroBtnWrap{
+    display: flex;
+    gap: 10px;
+    .btn{
+        border-radius: 4px !important;
+        font-size: 20px;
+    }
+    .outline-btn {
+        .btn{
+            background-color: transparent !important;
+            border: 1px solid #fff;
+            display: flex;
+            align-items: center;
+            img{
+                margin-left: 8px;
+            }
+        }
+    }
+    svg{
+        margin-left: 8px;
+    }
+}

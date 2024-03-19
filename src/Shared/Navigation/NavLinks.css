@@ -1,0 +1,12 @@
+.navbar-nav{
+    margin-left: 54px;
+    font-size: 14px;
+}
+.searchProfileWrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-nav a.active {
+    color: rgb(34 197 94);
+   }

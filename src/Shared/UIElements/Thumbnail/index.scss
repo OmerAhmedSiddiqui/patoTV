@@ -1,0 +1,22 @@
+.thumbnail{
+    width: 264px;
+    height: 148px;
+    overflow: hidden;
+    position: relative;
+
+    h3{
+        color: #FFFFFF !important;
+        font-size: 17px;
+        font-weight: bold !important;
+    }
+    p{
+        font-size: 12px;
+        color: #FFFFFF !important;
+    }
+}
+
+.thumbnail-content{
+    position: absolute;
+    bottom: 1px;
+    left: 21px;
+}

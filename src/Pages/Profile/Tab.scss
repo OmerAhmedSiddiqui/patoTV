@@ -1,0 +1,25 @@
+
+  .tab:hover {
+    background-color: #333333;
+  }
+  
+  .tab.active {
+    background-color: #333333;
+   
+  }
+  
+  .tab{
+    display: flex;
+    align-items: center;
+    width: 313px;
+    padding: 9px 12px;
+    background: #131313;
+    border: 1px solid #333333;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    color: #9F9F9F;
+  }
+
+  .tabicon{
+    margin-right: 9px;
+  }

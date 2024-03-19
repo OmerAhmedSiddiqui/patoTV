@@ -1,0 +1,47 @@
+.accordion-item{
+    border: none;
+    margin-bottom: 10px;
+}
+
+.accordion-item button{
+    background: #333333;
+    color: #9F9F9F;
+}
+
+.accordion-item button:focus{
+    border: none;
+}
+.accordion-button:not(.collapsed){
+    background: #333333;
+    color: #9F9F9F;
+}
+
+.accordion-body{
+    background: #333333;
+    color: #fff;
+    font-size: 14px;
+    padding-left: 35px;
+}
+
+.accordion-header {
+    border: none;
+}
+
+.accordion-button:after {
+     background-image: url("../../../Assets/Images/arrow.svg") !important;
+   }
+   .card {
+    border: none; /* Remove border from the entire card */
+  }
+  
+  .card-header {
+    border-bottom: none; /* Remove border from the card header */
+  }
+  
+  .card-body {
+    border-top: none; /* Remove border from the top of the card body */
+  }
+  
+  .card-header button:focus {
+    outline: none; /* Remove focus outline from the button inside card header */
+  }
