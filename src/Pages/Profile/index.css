@@ -1,0 +1,45 @@
+.app {
+  display: flex;
+  width: 100%;
+}
+
+.tabs {
+  min-width: 200px;
+}
+
+.content {
+  flex: 1;
+}
+
+.editProfileWrap {
+  justify-content: center;
+  height: 80vh;
+  padding: 0px 100px;
+  margin: 120px 0px;
+}
+
+.profileHeading h2 {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+/* styles.css */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Light black overlay */
+  z-index: 1000; /* Ensure it's above other elements */
+  display: none; /* Initially hidden */
+}
+
+.content {
+  /* Your main content styles */
+  padding: 20px;
+}
+
+.modal-dialog {
+  margin: 0 auto; /* Center the modal horizontally */
+}/*# sourceMappingURL=index.css.map */

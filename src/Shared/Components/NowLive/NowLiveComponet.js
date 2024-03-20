@@ -33,5 +33,4 @@ const NowLiveComponet = ({ page, para, onclick }) => {
     </div>
   );
 };
-
 export default NowLiveComponet;

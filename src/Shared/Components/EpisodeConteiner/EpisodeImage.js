@@ -3,7 +3,6 @@ import "./EpisodeConteiner.scss";
 import playBtn from '../../../Assets/Images/play-btn.png';
 
 export default function EpisodeImage({ imgSrc,barWidth }) {
-    console.log('barWidth',barWidth)
     return (
         <div className='episodeImg' style={{ backgroundImage: `url(${imgSrc})` }}>
             <img src={playBtn} alt='' />

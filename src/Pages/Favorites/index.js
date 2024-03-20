@@ -44,7 +44,7 @@ const Favorites = () =>{
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
             >
-              {ThumbnailData.map((item, index) => (
+              {ThumbnailData.slice(0,6).map((item, index) => (
                 <div key={index} className="thumbnail" onClick={() => handleThumbnailClick(index)}>
                   <Thumbnail
                     key={index}

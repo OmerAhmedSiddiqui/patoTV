@@ -32,20 +32,22 @@ const FooterNavLinks = props => {
 
         {logedIn ?
           <div className='footer-container'>
-            <div className='footer-links-container'>
+            <Nav className='footer-links-container'>
               <div>
                 <React.Fragment>
-                  <Nav.Link href="/" >Audio Description</Nav.Link>
-                  <Nav.Link href="/">Investor Relations</Nav.Link>
-                  <Nav.Link href="/">Privacy</Nav.Link>
-                  <Nav.Link href="/">Contact Us</Nav.Link>
+                <Link  to="/" className="nav-link">Audio Description</Link>
+                <Link  to="/" className="nav-link">Investor Relations</Link>
+                <Link  to="/" className="nav-link">Privacy</Link>
+                <Link  to="/" className="nav-link">Contact Us</Link>
+
                 </React.Fragment>
               </div>
               <div>
                 <React.Fragment>
-                  <Nav.Link href="/" >Help Center</Nav.Link>
-                  <Nav.Link href="/">Jobs</Nav.Link>
-                  <Nav.Link href="/">Legal Notices</Nav.Link>
+                <Link  to="/" className="nav-link">Help Center</Link>
+                <Link  to="/" className="nav-link">Jobs</Link>
+                <Link  to="/" className="nav-link">Legal Notices</Link>
+
                 </React.Fragment>
               </div>
               <div>
@@ -57,12 +59,12 @@ const FooterNavLinks = props => {
               </div>
               <div>
                 <React.Fragment>
-                  <Nav.Link href="/" >Media Center</Nav.Link>
-                  <Nav.Link href="/">Terms Of Use</Nav.Link>
-                  <Nav.Link href="/">Corporate Information</Nav.Link>
+                <Link  to="/" className="nav-link">Media Center</Link>
+                <Link  to="/" className="nav-link">Terms Of Use</Link>
+                <Link  to="/" className="nav-link">Corporate Information</Link>
                 </React.Fragment>
               </div>
-            </div>
+            </Nav>
             <div className='serviceCode'>
               Service Code
             </div>

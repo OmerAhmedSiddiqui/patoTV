@@ -1,0 +1,20 @@
+.backgroundImage {
+  background-image: url("../../Assets/Images/getstartedback.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.getStartedHeading h1 {
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.getStartedText h4 {
+  margin-bottom: 24px;
+}
+
+.getStartedTextButton {
+  font-size: 16px;
+  padding: 11px 60px;
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,60 @@
+.Main-Nav {
+  background-color: #000000 !important;
+}
+
+@media only screen and (min-width: 600px) {
+  .Main-Nav {
+    padding: 22px 60px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .footerNav .footer-links-container {
+    flex-direction: column;
+  }
+}
+.footerNavBar {
+  background-color: #0a0a0a !important;
+}
+
+.footerNav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start !important;
+  padding-top: 100px;
+}
+.footerNav img {
+  height: 20px;
+  margin-right: 30px;
+}
+.footerNav .footer-links-container {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}
+.footerNav .navbar-nav {
+  margin-left: -5px;
+  margin-top: 10px;
+  width: 100%;
+}
+.footerNav .nav-link {
+  padding-left: 0px !important;
+}
+.footerNav .footer-container {
+  width: 100%;
+}
+.footerNav .footer-container .serviceCode {
+  border: 1px solid #878787;
+  color: #878787;
+  display: inline-block;
+  padding: 7px 20px !important;
+  margin-top: 20px;
+}
+.footerNav .copyWrite {
+  font-size: 12px;
+  color: #878787;
+  margin-top: 20px;
+}
+
+.nav-link.active {
+  font-weight: bold;
+}/*# sourceMappingURL=MainNavigation.css.map */

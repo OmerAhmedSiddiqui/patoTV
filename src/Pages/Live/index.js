@@ -5,6 +5,7 @@ import ThumbnailData from "../../data";
 import Modal from '../../Shared/Components/SeriesModal/index';
 import NowLiveComponet from "../../Shared/Components/NowLive/NowLiveComponet";
 import ModelBtns from "../../Shared/Components/ModelButtons/ModelBtns";
+import NoLiveEvent from "../../Shared/Components/NowLive/NoLiveEvent";
 
 const LiveVideos = () =>{
     
@@ -30,9 +31,15 @@ const LiveVideos = () =>{
   const handleCloseModal = () => {
     setShowModal(false);
   };
+
+  let LiveVideo = false;
     return (
         <React.Fragment>
-            <NowLiveComponet onclick={() => handleThumbnailClick()} page={true} para={'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document.'}/>
+        {LiveVideo ? 
+          <NowLiveComponet onclick={() => handleThumbnailClick()} page={true} para={'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document.'}/>
+        :  <NoLiveEvent/>
+        }
+            
             <body className="homePageLayout now-live-page">
             <h2 className="mb-4 mt-5 fav-heading">Past Live Events</h2>
             <div className="thumbnail-wraper">

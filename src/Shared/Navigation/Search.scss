@@ -86,8 +86,15 @@
 
   }
   .Main-Nav:has(.SearchOverlay.active){
-    position: relative;
+    position: absolute;
+    top: 0px;
+    overflow-y: hidden;
+    z-index: 999;
+    width: 100%;
+}
+  .Main-Nav:has(.SearchOverlay.active)+div{
+    display: none;
   }
-  .Main-Nav:has(.SearchOverlay.active)+main{
+  .Main-Nav:has(.SearchOverlay.active)~body{
     display: none;
   }

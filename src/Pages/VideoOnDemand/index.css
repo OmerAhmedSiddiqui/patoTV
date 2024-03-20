@@ -1,0 +1,118 @@
+.thumbnail-wraper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.fav-heading {
+  font-size: 20px;
+  font-weight: bold;
+  z-index: 999;
+  position: relative;
+}
+
+/* Thumbnails container styles (already provided in the previous example) */
+/* Thumbnail styles (already provided in the previous example) */
+/* Modal styles */
+.modal-overlay1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  overflow: scroll;
+}
+
+.modal-content1 {
+  background-color: #131313;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  max-width: 100%;
+  overflow: auto;
+  width: 866px;
+  overflow: hidden;
+  height: auto;
+  max-height: 800px;
+  overflow-y: scroll;
+  z-index: 99999;
+}
+.modal-content1 .model-img {
+  height: 371px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: inherit;
+  opacity: 0.8;
+}
+.modal-content1 .model-title {
+  font-weight: bolder;
+}
+.modal-content1 .model-para {
+  color: #fff;
+}
+.modal-content1 .model-content {
+  position: absolute;
+  bottom: 10px;
+  left: 23px;
+}
+.modal-content1 .primary-button {
+  width: 187px;
+  height: 33px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-content1 .primary-button svg {
+  margin-left: 5px;
+}
+.modal-content1 .btns {
+  display: flex;
+  align-items: center;
+}
+.modal-content1 .btns .iconBox {
+  margin-left: 20px;
+}
+.modal-content1 .btns .iconBox p {
+  font-size: 12px;
+  color: #757575;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.modal-content1 .moreIconBox {
+  margin-top: -2.1px;
+}
+.modal-content1 .model-card-container {
+  position: relative;
+}
+.modal-content1 .model-body {
+  padding: 23px;
+}
+.modal-content1 .model-body .mode-description h3 {
+  font-size: 16px;
+}
+.modal-content1 .model-body .mode-description p {
+  color: #fff;
+}
+.modal-content1 .model-body .episodes-container .episode-header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+.modal-content1 .model-body .episodes-container .episode-header h3 {
+  font-size: 16px;
+}
+.modal-content1 .model-body .episodes-container .episode-header select {
+  background-color: #333333;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  width: 186px;
+  height: 34px;
+  color: #9F9F9F;
+  padding: 0 10px;
+}/*# sourceMappingURL=index.css.map */

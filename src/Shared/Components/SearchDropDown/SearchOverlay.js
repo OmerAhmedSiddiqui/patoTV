@@ -4,6 +4,8 @@ import Thumbnail from "../../UIElements/Thumbnail";
 import ThumbnailData from "../../../data";
 import Modal from "../SeriesModal";
 import ModelBtns from "../ModelButtons/ModelBtns";
+import "./index.scss";
+
 // import Thumbnail from "../../Shared/UIElements/Thumbnail/index"
 // import ThumbnailData from "../../data"
 // import Modal from '../../Shared/Components/SeriesModal/index';
@@ -42,7 +44,7 @@ const SearchOverlay = () =>{
       <body className="homePageLayout ">
           <h2 className="mb-4 mt-5 fav-heading">Video On Demand</h2>
           <div className="thumbnail-wraper">
-            <div className={`thumbnails-container ${showScroll ? 'show-scroll' : ''}`}
+            <div className={`thumbnails-container `}
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
             >
@@ -57,9 +59,11 @@ const SearchOverlay = () =>{
                 </div>
 
               ))}
+              
             </div>
 
           </div>
+          
           <Modal isOpen={showModal} selectedThumbnail={selectedThumbnail} onClose={handleCloseModal}>
             {selectedThumbnail == null ?
               <div>

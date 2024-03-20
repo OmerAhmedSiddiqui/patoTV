@@ -1,0 +1,10 @@
+.thumbnail-wraper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.fav-heading {
+  font-size: 20px;
+  font-weight: bold;
+}/*# sourceMappingURL=index.css.map */

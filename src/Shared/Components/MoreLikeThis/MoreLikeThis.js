@@ -1,28 +1,41 @@
-import React from 'react';
-import { Modal, Button } from 'react-bootstrap';
+import React, { useState } from 'react';
 import "./MoreLikeThis.scss";
 import MoreLikeThisContainerSuggetion from './MoreLikeThisContainerSuggetion'
-import suggestion1 from '../../../Assets/Images/suggestion1.png';
-import suggestion2 from '../../../Assets/Images/suggestion2.png';
-import suggestion3 from '../../../Assets/Images/suggestion3.png';
-import suggestion4 from '../../../Assets/Images/suggestion4.png';
-import suggestion5 from '../../../Assets/Images/suggestion5.png';
-import suggestion6 from '../../../Assets/Images/suggestion6.png';
+import morelikethisData from '../../../moreLikeThis';
 
 
 const MoreLikeThis = ({ show, onHide }) => {
+
+  const [showScroll, setShowScroll] = useState(false);
+  const handleMouseEnter = () => {
+    setShowScroll(true);
+  };
+
+  const handleMouseLeave = () => {
+    setShowScroll(false);
+  };
+
+
   return (
    <div className='MoreLikeThisContainer'>
         <h3>More Like this</h3>
-        <div className='suggetion'>
-          <MoreLikeThisContainerSuggetion imgSrc={suggestion1} title={'Push to Pass'} />
-          <MoreLikeThisContainerSuggetion imgSrc={suggestion2} title={'Pato Podcast'} />
-          <MoreLikeThisContainerSuggetion imgSrc={suggestion3} title={'Onboard Laps'} />
-          <MoreLikeThisContainerSuggetion imgSrc={suggestion4} title={'Series 4'} />
-          <MoreLikeThisContainerSuggetion imgSrc={suggestion5} title={'Series 5'} />
-          <MoreLikeThisContainerSuggetion imgSrc={suggestion6} title={'Series 3'} />
-          
+        <body className="homePageLayout ">
+        <div className="thumbnail-wraper">
+          <div className={`thumbnails-container ${showScroll ? 'show-scroll' : ''}`}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+          >
+            {morelikethisData.map((item, index) => (
+              <div key={index} className="thumbnail suggetion" >
+                <MoreLikeThisContainerSuggetion imgSrc={item.imageSrc} title={item.title} />
+              </div>
+
+            ))}
+          </div>
+
         </div>
+
+      </body>
        
 
    </div>

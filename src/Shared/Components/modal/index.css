@@ -1,0 +1,45 @@
+/* styles.css */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Light black overlay */
+  z-index: 1000; /* Ensure it's above other elements */
+  display: none; /* Initially hidden */
+}
+
+.content {
+  /* Your main content styles */
+  padding: 20px;
+}
+
+.modal-dialog {
+  margin: 0 auto; /* Center the modal horizontally */
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 20px;
+}
+
+.h3-modal {
+  color: #292929 !important;
+  font-weight: 900;
+  font-size: 22px;
+}
+
+.cancel-button {
+  color: #A0192B;
+}
+
+.modal-dialog {
+  display: flex;
+  justify-content: center;
+}
+
+.modal-content {
+  width: 320px;
+}/*# sourceMappingURL=index.css.map */

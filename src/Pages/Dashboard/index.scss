@@ -16,7 +16,7 @@
     overflow-x: hidden;
     white-space: nowrap;
     max-width: 100%;
-    
+    height: 148px;
   }
 
   .thumbnails-container1{
@@ -24,12 +24,16 @@
     overflow-x: hidden;
     white-space: nowrap;
     max-width: 100%;
+    height: 148px;
+
   }
   .thumbnails-container2{
     display: flex;
     overflow-x: hidden;
     white-space: nowrap;
     max-width: 100%;
+    height: 148px;
+
   }
   .thumbnail {
     flex: 0 0 auto;

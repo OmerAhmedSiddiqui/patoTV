@@ -7,9 +7,11 @@ import Profile from './Pages/Profile/index';
 import Favorites from './Pages/Favorites';
 import VideoOnDemand from './Pages/VideoOnDemand';
 import LiveVideos from './Pages/Live';
+import { useEffect } from 'react';
 
 
 const App = () => {
+
   return <Router>
      
           <main>

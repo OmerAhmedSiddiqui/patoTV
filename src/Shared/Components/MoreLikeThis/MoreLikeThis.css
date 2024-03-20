@@ -1,0 +1,23 @@
+.MoreLikeThisContainer {
+  padding: 20px 0;
+}
+.MoreLikeThisContainer h3 {
+  font-size: 16px;
+}
+.MoreLikeThisContainer .MoreLikeThisSuggetion {
+  height: 170px;
+  width: 118px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+}
+.MoreLikeThisContainer .MoreLikeThisSuggetion h4 {
+  font-size: 12px;
+}
+.MoreLikeThisContainer .suggetion {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}/*# sourceMappingURL=MoreLikeThis.css.map */

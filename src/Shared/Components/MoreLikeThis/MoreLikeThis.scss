@@ -3,6 +3,9 @@
     h3{
         font-size: 16px;
     }
+    .thumbnails-container {
+        height: 210px;
+    }
     .MoreLikeThisSuggetion{
         height: 170px;
         width: 118px;
@@ -19,5 +22,13 @@
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+        width: 118px;
+        height: 175px;
+        margin-top: 20px;
+      
+    }
+    .homePageLayout {
+        background: transparent;
+        padding-left: 0px;
     }
 }

@@ -1,0 +1,60 @@
+.episodeContainer {
+  display: flex;
+  padding: 25px 0;
+  border-bottom: 1px solid #333;
+}
+.episodeContainer .episodeImg {
+  background-repeat: no-repeat;
+  width: 350px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.episodeContainer .episodeImg img {
+  height: 24px;
+}
+.episodeContainer .episodeContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.episodeContainer .episodeContent .episodeTiltle {
+  font-size: 16px;
+  display: flex;
+}
+.episodeContainer .episodeContent .episodeTiltle .episodeDuration {
+  margin-left: auto;
+}
+.episodeContainer .episodeContent .episodeDescription {
+  color: #9F9F9F;
+  margin-top: revert;
+  font-size: 12px;
+}
+
+.thumbnail .episodeImg {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 4px;
+}
+.thumbnail .episodeImg img {
+  height: 32px;
+}
+.thumbnail .episodeImg #bar {
+  display: block;
+}
+
+#bar {
+  height: 2.5px;
+  position: absolute;
+  bottom: 5px;
+  width: 90%;
+  display: none;
+}/*# sourceMappingURL=EpisodeConteiner.css.map */
